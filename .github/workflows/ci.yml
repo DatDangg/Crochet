@@ -20,8 +20,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'
-          # Remove cache-dependency-path for now to test if that's the issue
+          # Remove cache: 'npm' to avoid looking for lockfile at root
 
 
       - name: Install dependencies
