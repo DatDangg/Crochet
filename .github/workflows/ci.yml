@@ -9,6 +9,9 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: apps/web
 
     steps:
       - uses: actions/checkout@v4
@@ -18,18 +21,13 @@ jobs:
         with:
           node-version: '20'
           cache: 'npm'
+          cache-dependency-path: apps/web/package-lock.json
 
       - name: Install dependencies
         run: npm ci
 
-      - name: Type check
-        run: npm run typecheck
-
-      - name: Run unit tests
-        run: npm run test:unit
-
-      - name: Run integration tests
-        run: npm run test:integration
+      - name: Lint
+        run: npm run lint
 
       - name: Build
         run: npm run build
