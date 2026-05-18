@@ -17,16 +17,24 @@
 
 ## Tasks
 
-<!-- 
-Khi user báo bug/feature, thêm task theo format:
+### [R-003] — Add Cart and Wishlist Buttons to Product Cards
 
-### [ID] — [Title]
+**Type:** Feature
+**Description:** Product cards lacked "Add to Cart" and "Add to Wishlist" buttons, making these features difficult to access.
+**Acceptance Criteria:**
+- Modify `ProductCard.tsx` to include functional buttons for adding items to cart and wishlist.
+- Use `useCart` and `useWishlist` hooks.
+- Ensure buttons are styled appropriately.
+**Status:** ✅ Done
+**Commit:** Add Add-to-Cart and Add-to-Wishlist buttons to ProductCard component.
 
-**Type:** Bug | Feature
-**Description:** [Mô tả vấn đề/yêu cầu]
-**Acceptance Criteria:** [Tiêu chí hoàn thành]
-**Status:** ⬜ Todo | 🔄 In Progress | ✅ Done
-**Commit:** -
--->
+### [R-001] — Fix Auth Header Display
 
-_Chưa có tasks — sẽ được thêm sau khi hoàn thành tất cả layers._
+**Type:** Bug
+**Description:** After logging in, the header still displays the "Login" button. It should display a "Logout" or profile link instead.
+**Acceptance Criteria:**
+- Create `hooks/useAuth.ts` to manage auth state.
+- Update `Navbar.tsx` to conditionally render Login/Logout based on auth state.
+**Status:** ✅ Done
+**Commit:** Added `useAuth` hook and updated `Navbar` to conditionally render Login/Logout.
+

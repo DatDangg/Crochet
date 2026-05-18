@@ -94,10 +94,15 @@ KHÔNG viết code, KHÔNG scaffold, KHÔNG implement cho đến khi có file sp
 ---
 
 ## Stack
-[Điền sau Phase 0]
+- Frontend: Next.js, Tailwind CSS, Shadcn UI
+- Backend/DB: Supabase (PostgreSQL, Auth, Storage)
 
 ## Folder Structure
-[Điền sau Phase 0]
+- `apps/web`: Next.js application
+- `docs/`: Project documentation
+- `tasks/`: Task lists
+- `scripts/`: Automation scripts
+
 
 ---
 
@@ -175,8 +180,8 @@ Flow: **Task → Pre-Code → Code → Post-Code → Commit**
 
 ## Phase & Task
 
-- **Current Phase:** Phase 0 — Planning (chưa bắt đầu)
-- **Current Layer:** Layer 0 — Foundation (chưa bắt đầu)
+- **Current Phase:** Phase 3 — Advanced (Done)
+- **Current Layer:** Refinement stage (Awaiting input)
 - **Implementation Plan:** xem `docs/IMPLEMENTATION_PLAN.md`
 - **Phase details:** xem `docs/phases/phase-0.md`
 - **Tasks:** xem `tasks/layer-0-todo.md`

@@ -1,40 +1,13 @@
-# Done Tasks
+### Phase 3 — Advanced
+#### Layer 0 — Foundation (Schema)
+- [x] Create `custom_orders` table schema
+- [x] Create `wholesale_inquiries` table schema
+- [x] Update RLS policies
 
-> Archive tất cả tasks đã hoàn thành, chia theo **Phase > Layer**.
+#### Layer 1 — Custom Product Request Flow
+- [x] Build Custom Request form for users
+- [x] Create Admin view for Custom Requests
 
----
-
-<!-- AI tự thêm sections ở đây khi hoàn thành -->
-<!-- Format:
-
-## Phase 1 — [Tên Phase]
-
-### Layer 0 — Foundation
-
-| ID | Task | Commit | Date |
-|----|------|--------|------|
-| 0.1 | [task description] | [hash] | YYYY-MM-DD |
-
-### Layer 1 — [Tên Layer]
-
-| ID | Task | Commit | Date |
-|----|------|--------|------|
-| 1.1 | [task description] | [hash] | YYYY-MM-DD |
-
-## Phase 2 — [Tên Phase]
-
-### Layer 0 — Foundation
-
-| ID | Task | Commit | Date |
-|----|------|--------|------|
-| 0.1 | [task description] | [hash] | YYYY-MM-DD |
-
-## Layer Refinement (Post-Completion)
-
-| ID | Task | Type | Commit | Date |
-|----|------|------|--------|------|
-| R.1 | [task] | Bug/Feature | [hash] | YYYY-MM-DD |
-
--->
-
-_Chưa có tasks hoàn thành._
+#### Layer 2 — Wholesale Inquiry Flow
+- [x] Build Wholesale Inquiry form for users
+- [x] Create Admin view for Wholesale Inquiries
